@@ -1,2 +1,2 @@
 # turist
-responsivo e sobre as cataratas 
+responsivo e sobre a coreia do sul
