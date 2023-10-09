@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    
 }
 html {
   scroll-behavior: auto;
@@ -45,7 +43,7 @@ header{
   background-color: transparent(0, 0, 0); 
   background-image: linear-gradient(rgb(0, 0, 0), transparent  );
   width: 100vw;
-  height: 35vh;
+  height: 20vh;
   position:fixed;
   display: block;
 }
@@ -78,22 +76,32 @@ header{
     width: 100vw;
     margin-top: 0%;
     float: left;
-    padding: 50px 90px 80px 90px;
+    padding: 50px 100px 100px 100px;
 
   }
   .text{
-    text-align: center;
-    float: right;
-    
+    text-align:right;
+    justify-content: center;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 100px;
+    float:right;
+
   
+  }
+  .img0{
+    margin: 10% 15% 5% 10%;
+    width: 40vw;
+    height: 60vh;
+    box-shadow: 0.1em 0.2em 0.10em black;
   }
   .img1{
     margin: 20px 20px 20px 20px;
     box-shadow: 0.1em 0.2em 0.10em black;
     width: 40vw;
     height: 60vh;
-   margin-left: 15%;
-   margin-top: 5%;
+    float: left;
+ 
   }
   nav p{
     float: right;
@@ -107,6 +115,9 @@ header{
     color: #5bf8c4fd; 
     transition: 0.5s;
     opacity: 0.7;
+}
+div{
+
 }
  
  
